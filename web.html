@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjai S | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(-45deg, #ff6ec4, #7873f5, #42e695, #facc6b);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #fff;
+        }
+
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        header {
+            padding: 60px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .profile-img {
+            max-width: 300px;
+            border-radius: 20px;
+        }
+
+        .intro {
+            max-width: 500px;
+        }
+
+        .intro h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .intro p {
+            margin-bottom: 10px;
+            color: #eee;
+        }
+
+        .location, .contact {
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        .download-btn {
+            background: transparent;
+            color: #000;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .skills-section {
+            padding: 40px 20px;
+        }
+
+        .skills-section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #000;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .skill-card {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .skill-card h3 {
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/sanjai.jpg" alt="Sanjai's Photo" class="profile-img">
+        <div class="intro">
+            <h1>SANJAI S</h1>
+            <p>A Biomedical Engineering student passionate about healthcare innovation and medical technology.</p>
+            <p>Currently studying at KPR Institute of Engineering and Technology (2023-2027)</p>
+            <p class="contact">
+                <i class="fas fa-envelope"></i> s.sanjai17022006@gmail.com | 
+                <i class="fas fa-phone"></i> +91-87784-55505
+            </p>
+            <p class="location">
+                <i class="fas fa-map-marker-alt"></i> Tamil Nadu, India
+            </p>
+            <a href="/downloads/Sanjai_Resume.pdf" class="download-btn" download>
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </header>
+
+    <section class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Primary Skills</h3>
+                <ul>
+                    <li>Basics of Python</li>
+                    <li>Basics of Java</li>
+                    <li>Ultimaker Cura (CAD)</li>
+                    <li>Autodesk Meshmixer</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>Internships</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <ul>
+                    <li>Madras Medical Mission Hospital – III Semester</li>
+                    <li>Medsby Healthcare & Engineering Solutions – IV Semester</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>Projects</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <ul>
+                    <li><strong>Moss to Purify the Air</strong><br>
+                        A sustainable solution using moss plants to absorb pollutants like NO2, SO2, and PM to improve urban air quality.
+                    </li>
+                    <li><strong>Other Projects</strong><br>
+                        Brief description of your contributions.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Sanjai S. Portfolio. All rights reserved.
+    </footer>
+
+</body>
+</html>
